@@ -35,7 +35,7 @@ print(finish_sandwish)
 """
 def make_pizz(*option):
     print(option)
-make_pizz(1,2,3)
+make_pizz(1,2,3,4,5,6,7,8,9,0)
 split_line()
 
 """
