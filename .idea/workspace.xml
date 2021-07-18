@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9987b419-7e89-4314-b3d8-bdadb5ed0865" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/class_function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/while_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/while_function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/class_function.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/class_function.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="253" lean-forward="true" selection-start-line="253" selection-end-line="253" />
+            <state relative-caret-position="388">
+              <caret line="350" column="5" selection-start-line="350" selection-start-column="5" selection-end-line="350" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -36,7 +34,7 @@
         <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-2097285612/builtins.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="191">
-              <caret line="733" column="13" lean-forward="true" selection-start-line="733" selection-start-column="13" selection-end-line="733" selection-end-column="13" />
+              <caret line="733" column="13" selection-start-line="733" selection-start-column="13" selection-end-line="733" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -102,11 +100,6 @@
               <item name="0709" type="b2602c69:ProjectViewProjectNode" />
               <item name="0709" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="0709" type="b2602c69:ProjectViewProjectNode" />
-              <item name="0709" type="462c0819:PsiDirectoryNode" />
-              <item name="class_function.py" type="8704e2dd:PyFileNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -117,6 +110,11 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\003 Git_File\0709" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -263,7 +261,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15653896" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.15653896" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -365,14 +363,14 @@
     <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-2097285612/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
-          <caret line="733" column="13" lean-forward="true" selection-start-line="733" selection-start-column="13" selection-end-line="733" selection-end-column="13" />
+          <caret line="733" column="13" selection-start-line="733" selection-start-column="13" selection-end-line="733" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/class_function.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="253" lean-forward="true" selection-start-line="253" selection-end-line="253" />
+        <state relative-caret-position="388">
+          <caret line="350" column="5" selection-start-line="350" selection-start-column="5" selection-end-line="350" selection-end-column="5" />
         </state>
       </provider>
     </entry>

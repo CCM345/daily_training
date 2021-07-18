@@ -149,6 +149,7 @@ class Cat():
     """
     成员变量格式一
     """
+    country = "China"  # 类变量，并非创建所有的对象时，才有的
     def __init__(self):
         self.type = "bosi"
         self.name = "xiaobai"
@@ -177,7 +178,11 @@ class Cat():
 
 cat1 = Cat()
 cat1.catch()
+cat1.country = "Japan"
+print(cat1.country)
+print(Cat.country)  ##使用类的方法调用
 split_line2()
+
 """"
 手机充电的例子
 """
@@ -255,8 +260,93 @@ class Card():
     def get_pwd(self):
         return self.__pwd
 
+    @classmethod  #类方法
+    def ac(cls):
+        print("this is classmethod")
+
+    def a2(self):
+        print("ac meth")
+
+    @staticmethod #类方法（静态的方法，常用做函数使用
+    def show():
+        print("this is static")
+
 card1 = Card()
 card1.set_id(123456)
 card1.set_pwd("123")
 print(card1.get_id())
 print(card1.get_pwd())
+card1.ac()
+Card.ac()
+card1.show()
+Card.show()
+split_line()
+
+"""
+继承的练习
++ 
+"""
+class GrandFather():
+    def __init__(self):
+        pass
+
+    def sing(self):
+        print("grand father sing")
+
+    def play(self):
+        print("grand father play")
+
+class Father():
+    def __init__(self):
+        self.first_name = "F"
+        self.age =  None
+        self.__id = "id"
+        # print("father __init__")
+
+    def sing(self):
+        print("father bad sing")
+
+    def play(self):
+        print("father good play")
+
+
+
+
+class Mother():
+    def __init__(self):
+        self.last_name = "M"
+        self.clour = None
+
+    def sing(self):
+        print("father good sing")
+
+    def play(self):
+        print("father bad play")
+
+
+
+
+class Child(Mother, Father,GrandFather):
+    def __init__(self):
+        # print("Child __init__")
+        # super().__init__()
+        pass
+    def sing(self):
+        Mother.sing(self)
+        GrandFather.sing(self)
+
+    def play(self):
+        Father.play(self)
+        GrandFather.play(self)
+        GrandFather.play(self)
+
+
+c = Child()
+c.sing()
+c.play()
+print(Child.__mro__)
+
+split_line()
+"""
+多态的学习
+"""
