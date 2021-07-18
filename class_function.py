@@ -345,8 +345,4 @@ c = Child()
 c.sing()
 c.play()
 print(Child.__mro__)
-
 split_line()
-"""
-多态的学习
-"""
