@@ -23,16 +23,16 @@ def CC_server():
     LISTEN_NUM = 10
     tcp_ser.listen(LISTEN_NUM)
 
-    while True:
+    while True:  #循环为多个客户端服务，一直处于监听状态
         #accept  1默认会阻塞，2并返回一个新的套接字用于和接进来的客户端进行数据传输，3并记录客户端的信息,为用户进行服务
         print("服务器的IP：%s,端口:%d,正在等待新的客户端的到来" % (SER_IP,SER_PORT ))
         tcp_ser_for_client,client_addr = tcp_ser.accept()
         print("客户端已经到来,信息如下:%s" % str(client_addr))
 
-        while True:
-            #recv
+        while True: #循环为同一个用户服务多次
+            #recv  返回值为空时，则客户端调用了close
             tcp_ser_recv_info = tcp_ser_for_client.recv(1024)
-            if tcp_ser_recv_info == "exit":
+            if ((tcp_ser_recv_info == "exit") or (tcp_ser_recv_info == None)):
                 break
             print("服务端接收:%s" % tcp_ser_recv_info.decode("utf-8"))
 
