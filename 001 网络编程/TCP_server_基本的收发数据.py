@@ -10,7 +10,7 @@ TCP 的服务端
 6.close 关闭
 """
 def CC_server():
-    #创建
+    # 创建
     tcp_ser = socket.socket(family=socket.AF_INET, type=socket.SOCK_STREAM)
 
     #bind
