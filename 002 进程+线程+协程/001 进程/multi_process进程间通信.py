@@ -76,7 +76,7 @@ if __name__ == "__main__":
     p2.start()
     p3.start()
 
-    q = multiprocessing.Queue()  # 产生一个队列，并注明队列里面的值的大小
+    q = multiprocessing.Queue()  # 产生一个队列，并注明队列里面的值的大小，未写就是默认
 
     p4 = multiprocessing.Process(target=write_data, args=(TIMES, q))
     p5 = multiprocessing.Process(target=read_data, args=(TIMES, q))
@@ -84,14 +84,3 @@ if __name__ == "__main__":
     p4.start()
     p5.start()
 
-
-
-
-
-
-
-
-    # for _ in range(3):
-    #     q_num =q.get(_)
-    #     print("本次取得值为:%d" % q_num)
-    #     print("当前队列是否为空:%d " % q.empty())

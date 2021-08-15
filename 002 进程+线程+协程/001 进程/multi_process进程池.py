@@ -4,6 +4,8 @@ from multiprocessing import Pool
 import time
 import os
 import random
+
+#可以写文章
 '''
 多进程的练习
 进程之间的资源是单独的，不会进行共享全局的信息
@@ -102,15 +104,3 @@ if __name__ == "__main__":
     pool.close()
     pool.join()
 
-
-
-
-
-
-
-
-
-    # for _ in range(3):
-    #     q_num =q.get(_)
-    #     print("本次取得值为:%d" % q_num)
-    #     print("当前队列是否为空:%d " % q.empty())

@@ -1,6 +1,7 @@
 import multiprocessing
 import time
 import os
+#可以发布文章
 '''
 多进程的练习
 进程之间的资源是单独的，不会进行共享全局的信息

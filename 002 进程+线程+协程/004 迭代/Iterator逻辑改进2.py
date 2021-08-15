@@ -65,11 +65,11 @@ class Students():
     def get_lst(self):
         return len(self.names)
 
-    def __iter__(self):
+    def __iter__(self):  # 具有本方法的对象是可迭代的
         # return Stuends_iter(self)
         return self
 
-    def __next__(self):
+    def __next__(self): # 具有本方法的对象是可迭代的，加上__next__()的方法才是迭代器
         if self.len < len(self.names):
             ret = self.names[self.len]
             self.len += 1

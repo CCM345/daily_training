@@ -1,4 +1,4 @@
-from  condition_if_array_dict import split_line,split_line2
+from condition_if_array_dict import split_line,split_line2
 
 split_line()
 
