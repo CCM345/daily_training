@@ -13,8 +13,8 @@ COUNT = 10000
 WAIT_TIME = 1
 
 monkey.patch_all()
-#打上sleep的补丁，能够完成time.sleep的补丁，不用实现time的替换，较少替换
-#说明：该替换只针对time.sleep（）生效，不会对别的生效
+# 打上sleep的补丁，能够完成time.sleep的补丁，不用实现time的替换，较少替换
+# 说明：该替换只针对time.sleep（）生效，不会对别的生效
 
 def test_1(count):
     for i in range(count):
