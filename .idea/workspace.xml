@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/004 http/http包.py" line="21" mnemonic="9" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9987b419-7e89-4314-b3d8-bdadb5ed0865" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/002 进程+线程+协程/004 迭代/图片下载器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03 正则表达式/rule001.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pytest/test_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pytest/test_file_类内.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pytest/test_file_类外.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/004 http/http_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/004 http/http_server获取指定的网页.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/004 http/http包.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/002 进程+线程+协程/004 迭代/gevent实现并发(推荐) joinall-11.py" beforeDir="false" afterPath="$PROJECT_DIR$/002 进程+线程+协程/004 迭代/gevent实现并发(推荐) joinall-11.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,43 +22,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/002 进程+线程+协程/004 迭代/gevent实现并发-打补丁10.py">
+        <entry file="file://$PROJECT_DIR$/004 http/http包.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-              <folding>
-                <element signature="e#99#110#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/002 进程+线程+协程/004 迭代/gevent实现并发(推荐) joinall-11.py">
+        <entry file="file://$PROJECT_DIR$/004 http/http_server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-              <folding>
-                <element signature="e#99#110#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="72">
+              <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/03 正则表达式/rule001.py">
+        <entry file="file://$PROJECT_DIR$/004 http/http_server获取指定的网页.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="151" selection-start-line="151" selection-start-column="2" selection-end-line="161" selection-end-column="27" />
+            <state relative-caret-position="259">
+              <caret line="97" column="52" selection-start-line="97" selection-start-column="52" selection-end-line="97" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/002 进程+线程+协程/004 迭代/Iterator逻辑改进2.py">
+        <entry file="file://$PROJECT_DIR$/001 网络编程/TCP1 全双工聊天/TCP_server_01聊天.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="55" column="27" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
+            <state relative-caret-position="1314">
+              <caret line="73" column="15" selection-start-line="2" selection-end-line="73" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -75,7 +72,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/002 进程+线程+协程/004 迭代/greenlet实现并发8.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
+            <state relative-caret-position="360">
               <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="e#46#57#0" expanded="true" />
@@ -87,7 +84,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/002 进程+线程+协程/004 迭代/图片下载器.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="72">
               <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -183,6 +180,9 @@
         <option value="$PROJECT_DIR$/Pytest/test_file_类内.py" />
         <option value="$PROJECT_DIR$/002 进程+线程+协程/004 迭代/gevent实现并发(推荐) joinall-11.py" />
         <option value="$PROJECT_DIR$/03 正则表达式/rule001.py" />
+        <option value="$PROJECT_DIR$/004 http/http包.py" />
+        <option value="$PROJECT_DIR$/004 http/http_server.py" />
+        <option value="$PROJECT_DIR$/004 http/http_server获取指定的网页.py" />
       </list>
     </option>
   </component>
@@ -209,12 +209,13 @@
             <path>
               <item name="daily_training_python" type="b2602c69:ProjectViewProjectNode" />
               <item name="daily_training_python" type="462c0819:PsiDirectoryNode" />
-              <item name="002 进程+线程+协程" type="462c0819:PsiDirectoryNode" />
+              <item name="001 网络编程" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="daily_training_python" type="b2602c69:ProjectViewProjectNode" />
               <item name="daily_training_python" type="462c0819:PsiDirectoryNode" />
-              <item name="03 正则表达式" type="462c0819:PsiDirectoryNode" />
+              <item name="001 网络编程" type="462c0819:PsiDirectoryNode" />
+              <item name="TCP1 全双工聊天" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -236,16 +237,16 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\003 Git_File\daily_training_python\002 进程+线程+协程\004 迭代" />
+      <recent name="D:\003 Git_File\daily_training_python\002 进程+线程+协程\003 协程" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\003 Git_File\daily_training_python\004 http" />
       <recent name="D:\003 Git_File\daily_training_python\Pytest" />
       <recent name="D:\003 Git_File\daily_training_python\002 进程+线程+协程\004 迭代" />
       <recent name="D:\003 Git_File\daily_training_python\002 进程+线程+协程\001 进程" />
       <recent name="D:\003 Git_File\daily_training_python\002 进程+线程+协程\002 线程" />
-      <recent name="D:\003 Git_File\0709" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\003 Git_File\daily_training_python\002 进程+线程+协程\004 迭代" />
-      <recent name="D:\003 Git_File\daily_training_python\002 进程+线程+协程\003 协程" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -260,28 +261,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.rule001">
-    <configuration name="gevent实现并发 joinall-11" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="0709" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/002 进程+线程+协程/004 迭代" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\003 Git_File\daily_training_python\002 进程+线程+协程\004 迭代\gevent实现并发(推荐) joinall-11.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.http_server获取指定的网页">
     <configuration name="gevent实现并发(推荐) joinall-11" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="0709" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -303,7 +283,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="multi_process进程间通信" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="http_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="0709" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -311,11 +291,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/002 进程+线程+协程/001 进程" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/004 http" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/002 进程+线程+协程/001 进程/multi_process进程间通信.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/004 http/http_server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -324,7 +304,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="multi_process进程池" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="http_server获取指定的网页" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="0709" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -332,32 +312,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/002 进程+线程+协程/001 进程" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/004 http" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/002 进程+线程+协程/001 进程/multi_process进程池.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="multi_task线程池" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="0709" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/002 进程+线程+协程/002 线程" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/002 进程+线程+协程/002 线程/multi_task线程池.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/004 http/http_server获取指定的网页.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -379,27 +338,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03 正则表达式/rule001.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="0709" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pytest" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pytest/test_file.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -431,11 +369,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.http_server获取指定的网页" />
+        <item itemvalue="Python.http_server" />
         <item itemvalue="Python.rule001" />
         <item itemvalue="Python.gevent实现并发(推荐) joinall-11" />
         <item itemvalue="Python.test_file_类外" />
-        <item itemvalue="Python.test_file" />
-        <item itemvalue="Python.gevent实现并发 joinall-11" />
       </list>
     </recent_temporary>
   </component>
@@ -470,20 +408,20 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.17437252" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.17437252" />
       <window_info id="Favorites" order="1" sideWeight="0.5021097" side_tool="true" weight="0.15587847" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3900293" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.398827" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.84742403" visible="true" weight="0.1510264" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49867898" weight="0.398827" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3243626" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.15257595" side_tool="true" visible="true" weight="0.1510264" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32577905" />
-      <window_info anchor="bottom" x="1328" y="289" width="348" height="635" id="Structure" order="11" side_tool="true" type="FLOATING" visible="true" weight="0.25" />
+      <window_info anchor="bottom" x="0" y="0" width="100" height="36" id="Structure" order="11" side_tool="true" type="FLOATING" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -547,10 +485,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/001 网络编程/UDP_server_02全双工.py" />
-    <entry file="file://$PROJECT_DIR$/001 网络编程/UDP_client聊天器.py" />
-    <entry file="file://$PROJECT_DIR$/001 网络编程/UDP_server聊天器.py" />
-    <entry file="file://$PROJECT_DIR$/001 网络编程/UDP_server02聊天器.py" />
     <entry file="file://$PROJECT_DIR$/001 网络编程/UDP_client02聊天器.py" />
     <entry file="file://$PROJECT_DIR$/001 网络编程/UDP_server02.py" />
     <entry file="file://$PROJECT_DIR$/001 网络编程/UDP_client02.py" />
@@ -789,6 +723,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/002 进程+线程+协程/004 迭代/gevent实现并发-打补丁10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding>
+            <element signature="e#99#110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002 进程+线程+协程/004 迭代/gevent实现并发(推荐) joinall-11.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+          <folding>
+            <element signature="e#99#110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002 进程+线程+协程/004 迭代/Iterator逻辑改进2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="55" column="27" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03 正则表达式/rule001.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2664">
+          <caret line="148" column="22" selection-start-line="148" selection-start-column="22" selection-end-line="148" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/001 网络编程/TCP1 全双工聊天/TCP_server_01聊天.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1314">
+          <caret line="73" column="15" selection-start-line="2" selection-end-line="73" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002 进程+线程+协程/004 迭代/Iterator的应用场景4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002 进程+线程+协程/004 迭代/greenlet实现并发8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#46#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002 进程+线程+协程/004 迭代/图片下载器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Pytest/test_file.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -810,64 +812,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/002 进程+线程+协程/004 迭代/gevent实现并发(推荐) joinall-11.py">
+    <entry file="file://$PROJECT_DIR$/004 http/http包.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        <state relative-caret-position="136">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/004 http/http_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/004 http/http_server获取指定的网页.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="97" column="52" selection-start-line="97" selection-start-column="52" selection-end-line="97" selection-end-column="52" />
           <folding>
-            <element signature="e#99#110#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002 进程+线程+协程/004 迭代/Iterator逻辑改进2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="55" column="27" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002 进程+线程+协程/004 迭代/Iterator的应用场景4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002 进程+线程+协程/004 迭代/greenlet实现并发8.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#46#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002 进程+线程+协程/004 迭代/gevent实现并发-打补丁10.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-          <folding>
-            <element signature="e#99#110#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002 进程+线程+协程/004 迭代/图片下载器.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03 正则表达式/rule001.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="151" selection-start-line="151" selection-start-column="2" selection-end-line="161" selection-end-column="27" />
         </state>
       </provider>
     </entry>
